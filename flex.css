@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+}
+
+.header,
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-content {
+    display: flex;
+    flex: 1; /* Fills the remaining space */
+}
+
+.sidebar-left,
+.sidebar-right {
+    background-color: #ddd;
+    padding: 20px;
+    width: 200px; /* Fixed width */
+}
+
+.content {
+    flex: 1; /* Flexible width */
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
